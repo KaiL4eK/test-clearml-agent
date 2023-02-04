@@ -16,3 +16,7 @@ Project to test ClearML remote agent
 
 - Install dependencies `poetry install -n`
 
+## Execution requirement
+
+- Poetry files have to be on the root level
+- Agent have to be started without `docker` mode or `poetry install` fails with return error 1
